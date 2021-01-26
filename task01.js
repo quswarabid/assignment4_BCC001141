@@ -1,10 +1,7 @@
-var education_qualifications = ["SSC", "HSC", "BCS", "BS", "B.Com", "MS", "M.Phil", "Ph.D"];
+var cityName =  "Hyderabad";
 
+document.write("City:" + cityName + "<br><br>");
 
-document.write("<br>Qualifications:<br>");
+cityName = cityName.replace("Hyder", "Islam");
 
-for (var i=0;i <8; i++){
-	document.write(i + ") " + education_qualifications[i] + "<br>");
-}
-
-document.write("<b><br>");
+document.write("City Name after replacement:" + cityName + "<br><br>");

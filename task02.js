@@ -1,11 +1,12 @@
+var number = "472";
 
-var names = ["Quswar", "Mahmood", "Abid"];
-var score = [100, 200, 300];
+document.write("Value: " + number + "<br><br>");
 
-for (var i=0; i<3; i++){
-	document.write("Score of " + names[i] + " is " + score[i] + ". Percentage: " + (score[i]*100/500) + "%.<br>");
-}
+document.write("Type: " + typeof(number) + "<br><br>");
 
+number = parseInt(number);
 
 
-document.write("<br><br><br>");
+document.write("Value: " + number + "<br><br>");
+
+document.write("Type: " + typeof(number) + "<br><br>");

@@ -1,10 +1,11 @@
-var aCities = ["Karachi", "Lahore", "Islamabad", "Faisalabad"];
-var o = ["th","st","nd","rd"];
+var randomNumber = Math.floor(Math.random()*6 + 1);
 
+document.write("Random Dice Value: " + randomNumber + "<br><br>");
 
-for (var i=1; i<aCities.length; i++){
-	document.write(i + o[i] + " choice is " + aCities[i-1] + "<br>");
-}
+randomNumber = Math.floor(Math.random()*6 + 1);
 
+document.write("Random Dice Value: " + randomNumber + "<br><br>");
 
-document.write("<br><br><br>");
+randomNumber = Math.floor(Math.random()*6 + 1);
+
+document.write("Random Dice Value: " + randomNumber + "<br><br>");
